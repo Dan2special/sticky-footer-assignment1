@@ -1,0 +1,58 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font: 30px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* dont use a general color when styling it will prevent a 
+style from adopting a designated color */
+
+body {
+  position: relative;
+}
+
+.content h1 {
+  line-height: 30px;
+  padding-bottom: 10px;
+  font-size: 35px;
+}
+
+.content p {
+  font-size: 18px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.content a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.full-content {
+  padding: 60px 45px;
+  display: flex;
+  justify-content: center;
+  line-height: 2rem;
+}
+
+.container {
+  width: 45%;
+  background-color: rgb(236, 231, 224);
+  margin: auto;
+  padding: 12px 12px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgb(236, 231, 222);
+  color: rgb(168, 160, 160);
+}
